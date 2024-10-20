@@ -34,8 +34,7 @@ nav a {
 ul {
     list-style-type: none;
     padding: 10px;
-    
-}   
+}
 
 li {
     margin-bottom: 10px;
@@ -47,15 +46,13 @@ ul li {
     border-radius: 5px;
     padding: 10px;
     color: #181515;
-
 }
+
 a {
     color: #24a12f;
     text-decoration: none;
     font-weight: bold;
-        
 }
-
 
 main {
     padding: 70px;
@@ -66,14 +63,14 @@ main {
     border-radius: 8px;
     margin-bottom: 50px;
 }
+
 p {
     color: #141414;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
     margin-bottom: 40px;
-    text-align: Arial, sans-serif;
-    
+    text-align: left; /* تعديل هنا */
 }
 
 h1, h2 {
@@ -87,9 +84,12 @@ h1, h2 {
 footer {
     background: #3f533b;
     color: #ffffff;
-    text-align: center;
+    display: flex; /* تفعيل الفليكس بوكس */
+    justify-content: center; /* محاذاة العناصر في المنتصف أفقياً */
+    align-items: center; /* محاذاة العناصر في المنتصف عمودياً */
     padding: 1em 0;
 }
+
 
 button {
     background-color: #555857;
@@ -113,6 +113,18 @@ details {
     width: 700px;
 }
 
+@media only screen and (max-width: 1200px) {
+    main {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    h1, h2 {
+        font-size: 20px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     header {
         flex-direction: column;
@@ -124,5 +136,8 @@ details {
     }
     h1 {
         font-size: 1.5em;
+    }
+    button {
+        width: 100%;
     }
 }
