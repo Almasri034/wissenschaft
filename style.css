@@ -126,3 +126,16 @@ details {
         font-size: 1.5em;
     }
 }
+
+ul li {
+    width: 300px;
+}   
+li ul {
+    width: 300px;
+}   
+details {
+    width: 300px;
+}
+a {
+    width: 300px;
+}  
