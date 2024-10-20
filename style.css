@@ -84,9 +84,9 @@ h1, h2 {
 footer {
     background: #3f533b;
     color: #ffffff;
-    display: flex; /* تفعيل الفليكس بوكس */
-    justify-content: center; /* محاذاة العناصر في المنتصف أفقياً */
-    align-items: center; /* محاذاة العناصر في المنتصف عمودياً */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1em 0;
 }
 
